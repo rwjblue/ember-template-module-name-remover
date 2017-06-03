@@ -1,6 +1,6 @@
 {
   "name": "ember-template-module-name-remover",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Remove module names from compiled template meta.",
   "keywords": [
     "ember-addon"
