@@ -12,10 +12,6 @@ module.exports = {
       name: 'module-name-remover',
       plugin: class ModuleNameRemover {
         constructor(options) {
-          if (options.moduleName) {
-            delete options.moduleName;
-          }
-
           if (options.meta && options.meta.moduleName) {
             delete options.meta.moduleName;
           }
